@@ -1,0 +1,13 @@
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.exe
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.deps.json
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.runtimeconfig.json
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.runtimeconfig.dev.json
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.dll
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\bin\Debug\netcoreapp3.1\udpSandbox.pdb
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.csprojAssemblyReference.cache
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.AssemblyInfoInputs.cache
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.AssemblyInfo.cs
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.csproj.CoreCompileInputs.cache
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.dll
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.pdb
+C:\Users\unarovadm\source\repos\udpSandbox\udpSandbox\obj\Debug\netcoreapp3.1\udpSandbox.genruntimeconfig.cache
