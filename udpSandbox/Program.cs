@@ -2,6 +2,7 @@
 using SenderImplementations;
 using StockQuoteGeneratorPrj;
 using System;
+using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
@@ -14,15 +15,13 @@ namespace udpSandbox
         static void Main(string[] args)
         {
             NaiveGenerator naiveGenerator = new NaiveGenerator(10, 4000);
-            CountSender countSender = new CountSender();
+            IPAddress ip = IPAddress.Loopback;
+            int port = 8001;
+            ISender countSender = new UdpSender(ip, port);
             stockQuoteGenerator = new StockQuoteGenerator(naiveGenerator, countSender);
 
             Thread thread = new Thread(new ThreadStart(start));
             thread.Start();
-            while (true)
-            {
-                Console.WriteLine(countSender.GetCount());
-            }
         }
         static void start()
         {
