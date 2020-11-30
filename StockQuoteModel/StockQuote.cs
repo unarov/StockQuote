@@ -6,5 +6,6 @@ namespace StockQuoteModel
 {
     public class StockQuote
     {
+        public double Value { get; set; }
     }
 }
