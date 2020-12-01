@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneratorImplementations", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenderImplementations", "SenderImplementations\SenderImplementations.csproj", "{DCD30640-65E4-4E0D-A80E-566453C08498}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceiverImplementation", "ReceiverImplementation\ReceiverImplementation.csproj", "{2563492C-8C16-473D-8942-B7B3F693A715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DCD30640-65E4-4E0D-A80E-566453C08498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCD30640-65E4-4E0D-A80E-566453C08498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCD30640-65E4-4E0D-A80E-566453C08498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2563492C-8C16-473D-8942-B7B3F693A715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2563492C-8C16-473D-8942-B7B3F693A715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2563492C-8C16-473D-8942-B7B3F693A715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2563492C-8C16-473D-8942-B7B3F693A715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

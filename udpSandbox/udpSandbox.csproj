@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\GeneratorImplementations\GeneratorImplementations.csproj" />
+    <ProjectReference Include="..\ReceiverImplementation\ReceiverImplementation.csproj" />
     <ProjectReference Include="..\SenderImplementations\SenderImplementations.csproj" />
     <ProjectReference Include="..\StockQuoteGeneratorPrj\StockQuoteGeneratorPrj.csproj" />
   </ItemGroup>

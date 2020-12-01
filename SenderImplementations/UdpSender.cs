@@ -11,15 +11,17 @@ namespace SenderImplementations
     public class UdpSender : ISender
     {
         UdpClient client;
+        IPEndPoint endPoint;
         public UdpSender(IPAddress IPAddress, int port)
         {
             client = new UdpClient();
-            client.Connect(IPAddress, port);
+            endPoint  = new IPEndPoint(IPAddress, port);
         }
         public void SendStockQuote(StockQuote stockQuote)
         {
             var data = BitConverter.GetBytes(stockQuote.Value);
-            client.Send(data, data.Length);
+            var sented = client.Send(data, data.Length, endPoint);
+            Console.WriteLine($"Data has beed sented {sented}");
         }
     }
 }
