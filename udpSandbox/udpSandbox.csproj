@@ -6,10 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GeneratorImplementations\GeneratorImplementations.csproj" />
-    <ProjectReference Include="..\ReceiverImplementation\ReceiverImplementation.csproj" />
-    <ProjectReference Include="..\SenderImplementations\SenderImplementations.csproj" />
-    <ProjectReference Include="..\StockQuoteGeneratorPrj\StockQuoteGeneratorPrj.csproj" />
+    <ProjectReference Include="..\GeneratorImplementations\StockQuoteGenerators.csproj" />
+    <ProjectReference Include="..\ReceiverImplementation\UdpReciverPrj.csproj" />
+    <ProjectReference Include="..\SenderImplementations\UdpSenderPrj.csproj" />
   </ItemGroup>
 
 </Project>

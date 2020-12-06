@@ -1,8 +1,7 @@
-﻿using StockQuoteGeneratorPrj;
-using StockQuoteModel;
+﻿using StockQuoteModel;
 using System;
 
-namespace GeneratorImplementations
+namespace StockQuoteGenerators
 {
     public class NaiveGenerator : IGenerator
     {

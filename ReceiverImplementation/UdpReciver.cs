@@ -2,15 +2,16 @@
 using System.Net;
 using System.Net.Sockets;
 
-namespace ReceiverImplementation
+namespace UdpReciverPrj
 {
     public class UdpReciver
     {
         UdpClient receiver;
-
+        public ulong Count { get;private set; }
         public UdpReciver(int port)
         {
             receiver = new UdpClient(port);
+            Count = 0;
         }
         public void Start()
         {
@@ -19,7 +20,7 @@ namespace ReceiverImplementation
             while (true)
             {
                 byte[] data = receiver.Receive(ref remoteIp); // получаем данные
-                Console.WriteLine("get package");
+                Count++;
             }
         }
     }

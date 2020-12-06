@@ -6,20 +6,15 @@ namespace StockQuoteGeneratorPrj
     public class StockQuoteGenerator
     {
         IGenerator generator;
-        ISender sender;
 
-        public StockQuoteGenerator(IGenerator generator, ISender sender)
+        public StockQuoteGenerator(IGenerator generator)
         {
             this.generator = generator;
-            this.sender = sender;
         }
-        public void Start()
+        public ulong GetStockQuote()
         {
-            while (true)
-            {
-                var stockQuote = generator.GetNextStockQuote();
-                sender.SendStockQuote(stockQuote);
-            }
+            var stockQuote = generator.GetNextStockQuote();
+            return stockQuote;
         }
     }
 }
